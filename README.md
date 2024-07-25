@@ -5,7 +5,7 @@ Note: This is an ongoing repository. Updates will be posted as the course progre
 ## 👋🏻 Greetings!
 Welcome to the **CS 211 - Object-oriented Programming** course! ☕🧡<br>
 
-This course will establish an object-oriented mindset and to gain valuable insights into how software can be developed using the object-oriented approaches, the separation of design from implementation, and describe the concepts using diagrams. This course should not be interpreted to be a pure programming language course. Rather, the programming language serves to illustrate, via practical examples, the concepts learnt in the course.
+This course provides a comprehensive introduction to Java programming and object-oriented principles. It covers fundamental concepts, control flow, and advanced object-oriented techniques, equipping learners with the skills needed to develop robust and maintainable Java applications.
 
 ## 🎯 Course Outline
 - Lesson 1: **INTRODUCTION TO JAVA AND OOP**
