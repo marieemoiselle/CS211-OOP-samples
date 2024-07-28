@@ -1,6 +1,7 @@
 # OBJECT-ORIENTED PROGRAMMING
 By: **Fatima Marie P. Agdon, MSCS**<br>
 Note: This is an ongoing repository. Updates will be posted as the course progresses.
+<br>Don't forget to give this a ⭐!
 
 ## 👋🏻 Greetings!
 Welcome to the **CS 211 - Object-oriented Programming** course! ☕🧡<br>
