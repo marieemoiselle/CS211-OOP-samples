@@ -7,6 +7,7 @@ public class Factorials {
         int num = in.nextInt();
         int f = factorial(num);
         System.out.print("The factorial of the given number is "+ f);
+        in.close();
     }
 
    public static int factorial (int n){

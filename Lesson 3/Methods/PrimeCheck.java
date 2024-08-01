@@ -12,7 +12,7 @@ class PrimeCheck{
         else {
             System.out.print("Not Prime");
         }
-        
+        input.close();
     }
 
     public static boolean isprime(int val){
