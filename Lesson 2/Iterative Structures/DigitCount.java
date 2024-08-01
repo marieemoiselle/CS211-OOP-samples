@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class DigitCount {
 
     public static void main(String[] args) {
-        int num;
         int digits = 0;
         System.out.print("Please enter a number: ");
         Scanner input = new Scanner(System.in);
@@ -14,5 +13,6 @@ public class DigitCount {
         }
 
         System.out.print("Number of digits in the given number is: " +digits);
+        input.close();
     }
 }

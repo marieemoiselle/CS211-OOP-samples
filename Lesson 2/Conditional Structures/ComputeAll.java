@@ -19,5 +19,8 @@ public class ComputeAll {
         System.out.println("Difference: " + diff);
         System.out.println("Product: " +prod);
         System.out.print("Quotient: "+quot);
+
+        fn.close();
+        sn.close();
     }
 }

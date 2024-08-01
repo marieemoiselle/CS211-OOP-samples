@@ -15,6 +15,6 @@ public class GetSum {
         }
         
         System.out.print("Sum from 1 to " +upbd+ " is: " + sum);
-        
+        value.close();
     }
 }

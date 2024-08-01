@@ -2,10 +2,10 @@ import java.util.Scanner;
 class PascalTriangle{
     public static void main(String[]args){
         int rows;
-        Scanner r = new Scanner(System.in);
+        Scanner row = new Scanner(System.in);
 
         System.out.print("Enter the number of rows: ");
-        rows = r.nextInt();
+        rows = row.nextInt();
 
         for(int i = 0; i < rows; i++){
             int coef = 1; 
@@ -14,5 +14,6 @@ class PascalTriangle{
                 coef = coef * (i-j)/(j+1);
             }System.out.print("\n");
         } 
+        row.close();
     } 
 }

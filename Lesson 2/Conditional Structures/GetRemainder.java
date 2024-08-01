@@ -12,5 +12,8 @@ class GetRemainder{
         int num2 = sn.nextInt();
         int remainder = num1%num2;
         System.out.print("Remainder of " + num1 + "/" + num2 + " is: " + remainder);
+
+        fn.close();
+        sn.close();
     }
 }
