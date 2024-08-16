@@ -1,5 +1,7 @@
 # OBJECT-ORIENTED PROGRAMMING
-By: **Fatima Marie P. Agdon, MSCS**<br>
+![CS-211](https://github.com/user-attachments/assets/ebf8983e-81e1-4280-862e-34c90986a0cb)
+<br/>
+by: **Fatima Marie P. Agdon, MSCS**<br>
 Note: This is an ongoing repository. Updates will be posted as the course progresses.
 <br>Don't forget to give this a ⭐!
 
