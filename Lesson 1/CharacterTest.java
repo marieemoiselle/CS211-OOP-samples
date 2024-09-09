@@ -7,6 +7,6 @@ class CharacterTest{
         System.out.println("letter is: " +letter);
         System.out.println("digit is: " +digit);
         //letter = letter + 'Z';
-        System.out.println("letter is: " +letter);
+        //System.out.println("letter is: " +letter);
     }
 }

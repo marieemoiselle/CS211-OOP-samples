@@ -9,7 +9,7 @@ class Operators {
         num--;
         System.out.println(num); // Output: 33
 
-        num += 45;
+        num += 45; //num = num + 45
         System.out.println(num); // Output: 78
 
         num++;
