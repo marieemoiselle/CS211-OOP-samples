@@ -28,21 +28,21 @@ This course provides a comprehensive introduction to Java programming and object
     - Break and Continue Statements
 - Lesson 3: **JAVA FUNCTIONS AND ARRAYS**
     - Functions in Java
-    - Declaring and Defining Methods
-    - Calling Methods
-    - Actual and Formal Parameters
-    - Passing Values by Value and by Reference
-    - The ```return``` Keyword
-        - Functions Creation and Usage
-            - Function Categories based on Parameters and Return Values
-            - Functions without Parameters and Return Values
-            - Functions without Parameters but with Return Values
-            - Functions with Parameters but without Return Values
-            - Functions with Parameters and Return Values
-        - Recursive Functions
+        - Declaring and Defining Methods
+        - Calling Methods
+        - Actual and Formal Parameters
+        - Passing Values by Value and by Reference
+        - The ```return``` Keyword
+            - Functions Creation and Usage
+                - Function Categories based on Parameters and Return Values
+                - Functions without Parameters and Return Values
+                - Functions without Parameters but with Return Values
+                - Functions with Parameters but without Return Values
+                - Functions with Parameters and Return Values
+            - Recursive Functions
     - Arrays in Java
-    - Accessing Array Elements
-    - for-each Array Traversal
+        - Accessing Array Elements
+        - for-each Array Traversal
 - Lesson 4: **OBJECT-ORIENTED PROGRAMMING PRINCIPLES**
     - ***ENCAPSULATION***
         - Classes, Objects, Instance Variables
