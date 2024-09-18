@@ -32,3 +32,10 @@ class ForEachIn2D {
         System.out.println("Summation: " + sum);
     }
 }
+
+/*
+ *   row 0: 1, 2
+ *   row 1: 2, 4
+ *   row 2: 3, 6
+ * 
+ */
