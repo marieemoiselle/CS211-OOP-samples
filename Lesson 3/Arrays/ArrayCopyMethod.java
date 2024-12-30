@@ -10,8 +10,13 @@ class ArrayCopyMethod{
         String[] destination = new String[2];
         System.arraycopy(source, 6, destination, 0, 2);
 
+        boolean isFirst = true;
         for(String character : destination){
-            System.out.println(character);
+            if(!isFirst){
+                System.out.print(", ");
+            }
+            System.out.print(character);
+            isFirst = false;
         }
     }
 

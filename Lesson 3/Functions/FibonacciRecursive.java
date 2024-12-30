@@ -9,7 +9,7 @@ public class FibonacciRecursive {
 		}
 	}
 	public static void main(String[] args) {
-		int position = 6;
+		int position = 5;
 		System.out.println("Position: " + position);
 		System.out.println("Fibonacci number: " + fibonacci(position));
 	}

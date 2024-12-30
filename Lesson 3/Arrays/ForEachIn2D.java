@@ -23,9 +23,10 @@ class ForEachIn2D {
         // using for-each loop to display the elements and calculate the sum
         for(int[] rvals : nums) {
             for(int cvals : rvals) {
-                System.out.println("Value: " + cvals);
+                System.out.print(cvals + " ");
                 sum += cvals;
             }
+            System.out.println();
         }
 
         // print the total sum

@@ -3,7 +3,7 @@ import java.util.Random;
 public class FunctionCategoryTwo {
 	public static int getRandomValue() {
 		Random random = new Random();
-		int randomNumber = random.nextInt(100); 
+		int randomNumber = random.nextInt(1, 37); 
 		// generate a random number between 0 and 99
         // functions without parameters but with return values
 		return randomNumber;
