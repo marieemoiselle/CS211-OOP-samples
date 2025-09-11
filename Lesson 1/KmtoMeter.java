@@ -5,7 +5,7 @@ class KmtoMeter{
         System.out.print("Enter value in km: ");
         int km = input.nextInt();
         int m = km * 1000;
-        System.out.println(km + "km = " +m+ "m.");
+        System.out.println(km + " is equivalent to " + m + " meters.");
         input.close();
     }
 }

@@ -1,14 +1,14 @@
 public class ReturningInt {
-	static int getRemainder(int dividend, int divisor) {
-		int result = dividend % divisor;
+	static int getProduct(int dividend, int divisor) {
+		int result = dividend / divisor;
 		return result;
 	}
 
 	public static void main(String[] args) {
 		int num1 = 10;
-		int num2 = 3;
+		int num2 = 0;
 
-		int rem = getRemainder(num1, num2);
+		int rem = getProduct(num1, num2);
 		// Calling the method
 
 		System.out.println(num1 + " % " + num2 + " = " + rem);
