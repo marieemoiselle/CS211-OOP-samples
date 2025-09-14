@@ -20,7 +20,7 @@ Recursion is a mechanism that a function calls itself to solve a smaller version
             RETURN computeGCD(b, a mod b)
     ```
 3. **How this works?**
-    If you are to obtain the GCD of two numbers, represented by `a` and `b`:
+    <br/>If you are to obtain the GCD of two numbers, represented by `a` and `b`:
     - If `b == 0`, then the GCD is `a`, meaning the **base case** is reached.
     - Otherwise, the `computeGCD()` function is called again, swapping the numbers as `(b, a % b)`.
         - `a % b` pertains to the remainder when `a` is divided to `b`.
@@ -44,13 +44,15 @@ computeGCD(48, 18)
 ```
 
 5. **Trace Table**
-Let `a = 48`, `b = 18`.
-| Step | `a` | `b`  | `a % b` | Function Call       |   Return Value  |
-|------|-----|------|---------|---------------------|-----------------|
-|  1   | 48  |  18  |    12   | `computeGCD(48, 18)`|    waiting      |
-|  2   | 18  |  12  |    6    | `computeGCD(18, 12)`|    waiting      |
-|  3   | 12  |  6   |    0    | `computeGCD(12, 6)` |    waiting      |
-|  4   | 6   |  0   |    0    | `computeGCD(6, 0)`  |    `6` (base case reached)      |
+<br/>Let `a = 48`, `b = 18`.
+
+| Step | `a` | `b`  | `a % b` | Function Call                              | Return Value               |
+|------|-----|------|---------|--------------------------------------------|----------------------------|
+|  1   | 48  |  18  |   12    | `computeGCD(48, 18) -> computeGCD(18, 12)` | recursive call             |
+|  2   | 18  |  12  |   6     | `computeGCD(18, 12) -> computeGCD(12, 6)`  | recursive call             |
+|  3   | 12  |  6   |   0     | `computeGCD(12, 6) -> computeGCD(6, 0)`    | recursive call             |
+|  4   | 6   |  0   |   0     | `computeGCD(6, 0) -> base case -> return 6`| `6` (base case reached)    |
+
 
 ## ☕ Code Snippet
 ```java
