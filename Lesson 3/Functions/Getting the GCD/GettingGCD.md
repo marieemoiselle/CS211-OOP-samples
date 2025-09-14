@@ -8,7 +8,7 @@ The **greatest common factor** (GCF), also known as the greatest common divisor 
 Recursion is a mechanism that a function calls itself to solve a smaller version of the same problem until it reaches a stopping point, called a **base case**.
 
 ### 🧮 Euclidean Algorithm via Recursion
-1. **Notation**
+1. **Notation** <br/>
     $\gcd(a, b) = \gcd(b, a \bmod b)$
 
 2. **Pseudocode**
