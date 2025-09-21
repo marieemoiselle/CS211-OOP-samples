@@ -1,6 +1,6 @@
 public class Functions1DArray {
 	public static void main(String[] args) {
-		int[] arr = {1, 2, 3, 4, 5};
+		int[] arr = {9, 18, 27, 36, 45};
 		int multiplier = 5;
 
 		System.out.print("Original Array: ");
